@@ -6,7 +6,7 @@ class Wizard(val name: String, var mana: Int, var spellPower: Int) {
             "Explosion" -> {
                 if (mana >= 10) {
                     mana -= 10
-                    return spellPower * 3
+                    return spellPower * 38
                 } else return 0 // not enough mana
             }
             "Frostbite" -> {
